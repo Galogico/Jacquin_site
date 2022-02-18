@@ -1,0 +1,53 @@
+#form-contato{
+    width: 30%;
+    padding-top: 50px;
+    align-self: center;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    background-color: rgba(140, 0, 158, 0.295);
+    border-radius: 5%;
+}
+
+#div-form{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-label{
+    font-size: 1.5 ren;
+    color:white;
+}
+
+body{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+#form-contato:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.btn-contato{
+    background-color: rgba(0, 0, 255, .8);
+    color: rgba (0,225,0,.8);
+
+}
+
+.btn-contato:hover{
+    cursor: pointer;
+}
+
+#btn-contato-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
